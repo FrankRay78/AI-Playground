@@ -9,6 +9,8 @@ This is small sample project that shows you how to:
 
 Presented as a single Program.cs C# .NET 9.0 Console app.
 
+![01_Screenshot](https://github.com/user-attachments/assets/93e3d956-7788-48bf-89f0-66a293043d93)
+
 ## Usage
 
 * Your OpenAI API key should be stored in an environment variable called `OPENAI_API_KEY`
@@ -22,6 +24,6 @@ Presented as a single Program.cs C# .NET 9.0 Console app.
 
 ## Credits
 
-Many thanks to Ed Andersen, who provided the original [tutorial](https://www.youtube.com/watch?v=FDDpkm9vCAI) and [codebase](https://github.com/edandersen/csharp-openai-assistants-dotnet-console). 
+Many thanks to [Ed Andersen](https://github.com/edandersen), who provided the original [tutorial](https://www.youtube.com/watch?v=FDDpkm9vCAI) and [codebase](https://github.com/edandersen/csharp-openai-assistants-dotnet-console). 
 
-My contribution was entirely removing the Azure Nuget and reworking the codebase to run against the [OpenAI dotnet client](https://github.com/openai/openai-dotnet).
+My contribution was removing the Azure Nuget and reworking the codebase to run entirely against the [OpenAI dotnet client](https://github.com/openai/openai-dotnet).
