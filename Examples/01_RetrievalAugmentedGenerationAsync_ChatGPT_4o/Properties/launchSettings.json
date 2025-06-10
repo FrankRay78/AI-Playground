@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "01_RetrievalAugmentedGenerationAsync": {
+      "commandName": "Project",
+      "commandLineArgs": "Japan.pdf"
+    }
+  }
+}

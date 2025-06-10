@@ -16,7 +16,7 @@ Presented as a single Program.cs C# .NET 9.0 Console app.
 * Your OpenAI API key should be stored in an environment variable called `OPENAI_API_KEY`
 * The environment variable should be accessible to the running console app
 * The first argument of the console app must be a local PDF file
-* [Japan.pdf](https://github.com/FrankRay78/AI-Playground/blob/FrankRay78-patch-1/Examples/01_RetrievalAugmentedGenerationAsync/Japan.pdf) has been provided to help you get started
+* [Japan.pdf](https://github.com/FrankRay78/AI-Playground/blob/main/Examples/01_RetrievalAugmentedGenerationAsync_ChatGPT_4o/Japan.pdf) has been provided to help you get started
 
 ## Notes
 
