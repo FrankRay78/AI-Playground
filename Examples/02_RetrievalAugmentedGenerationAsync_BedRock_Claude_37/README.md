@@ -1,6 +1,13 @@
 ﻿# C# .NET AWS BedRock Claude 3.7 Assistant for Local File Search
 
-This is small sample project that shows you how to:
+<br />
+
+> [!IMPORTANT]  
+>  This example is actually using Claude 3 Sonnet, not Claude 3.7 Sonnet, for the reasons outlined [here](https://github.com/FrankRay78/AI-Playground/issues/2). 
+
+<br />
+
+A small sample project that shows you how to:
 
 - Upload a local PDF file to AWS BedRock
 - Ask a natural language question about the file
