@@ -21,6 +21,8 @@ Executing this example will:
 - Upload [Japan.pdf](https://github.com/FrankRay78/AI-Playground/blob/main/Examples/02_RetrievalAugmentedGenerationAsync_BedRock_Claude_37/Japan.pdf) to Amazon BedRock.
 - Ask the question: "Tell me a little known fact about Japan."
 
+![Example 02 screenshot](https://github.com/user-attachments/assets/e1e7222c-66c2-4514-ad06-63ad00360de8)
+
 ## Notes
 
 * AWS has a reference example here similar to this, [here](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/dotnetv4/Bedrock-runtime/Models/AnthropicClaude/Converse/Converse.cs).
