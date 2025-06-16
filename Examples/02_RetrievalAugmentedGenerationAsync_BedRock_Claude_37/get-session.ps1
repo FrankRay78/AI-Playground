@@ -1,15 +1,9 @@
 ﻿# PowerShell script to get temporary AWS session credentials using MFA
 
-# Set-PSDebug -Trace 1
-# Set-PSDebug -Off
 
-
-############################################################################
-###
-### You must have a profile called "mfa-base" configured with your 
-### long-term AWS credentials.
-###
-############################################################################
+# Prerequisites:
+# 1. A profile called "mfa-base" configured with your long-term AWS credentials.
+# 2. Your MFA device name configured in your AWS config file.
 
 
 $BaseProfile = "mfa-base"  # Name of your AWS CLI profile with long-term credentials
