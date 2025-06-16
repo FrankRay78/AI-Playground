@@ -10,7 +10,8 @@ var client = new AmazonBedrockRuntimeClient(RegionEndpoint.EUWest1);
 var modelId = "anthropic.claude-3-sonnet-20240229-v1:0";
 
 // Define the user message.
-var userMessage = "Describe the purpose of a 'hello world' program in one line.";
+var userPrompt = "Tell me a little known fact about Japan.";
+var fileAttachment = new MemoryStream(File.ReadAllBytes("Japan.pdf"));
 
 // Create a request with the model ID, the user message, and an inference configuration.
 var request = new ConverseRequest
@@ -21,7 +22,25 @@ var request = new ConverseRequest
         new Message
         {
             Role = ConversationRole.User,
-            Content = new List<ContentBlock> { new ContentBlock { Text = userMessage } }
+            Content = new List<ContentBlock>
+            {
+                new ContentBlock
+                {
+                    Text = userPrompt,
+                },
+                new ContentBlock
+                {
+                    Document = new DocumentBlock
+                    {
+                        Format = DocumentFormat.Pdf,
+                        Name = "Japan (PDF)",
+                        Source = new DocumentSource
+                        {
+                            Bytes = fileAttachment,
+                        }
+                    }
+                }
+            },
         }
     },
     InferenceConfig = new InferenceConfiguration()
