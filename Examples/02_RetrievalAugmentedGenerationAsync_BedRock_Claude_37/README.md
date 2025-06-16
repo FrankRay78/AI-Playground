@@ -2,20 +2,24 @@
 
 This is small sample project that shows you how to:
 
-- Upload a local PDF file to AWS BedRock using the AWS BedRock API
-- Use the File Search tool to ask natural language questions about the file
-- Keep the conversation thread active for follow-up questions
-- Clean up resources when complete
+- Upload a local PDF file to AWS BedRock
+- Ask a natural language question about the file
 
 Presented as a single Program.cs C# .NET 9.0 Console app.
 
-## Usage
+## Pre-requisites
 
 * You must have a profile called "mfa-base" configured with your long-term AWS credentials.
 * You must have your MFA device configured in your AWS config file.
 * Run `get-session.ps1` to generate temporary session credentials.
-* The first argument of the console app must be a local PDF file
-* [Japan.pdf](https://github.com/FrankRay78/AI-Playground/blob/main/Examples/02_RetrievalAugmentedGenerationAsync_BedRock_Claude_37/Japan.pdf) has been provided to help you get started
+* The script will prompt you for your MFA code.
+
+## Usage
+
+Executing this example will:
+
+- Upload [Japan.pdf](https://github.com/FrankRay78/AI-Playground/blob/main/Examples/02_RetrievalAugmentedGenerationAsync_BedRock_Claude_37/Japan.pdf) to Amazon BedRock.
+- Ask the question: "Tell me a little known fact about Japan."
 
 ## Notes
 

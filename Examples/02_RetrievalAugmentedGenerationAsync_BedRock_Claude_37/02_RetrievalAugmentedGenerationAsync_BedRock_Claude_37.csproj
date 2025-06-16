@@ -13,6 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Japan %28One Page%29.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Japan.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

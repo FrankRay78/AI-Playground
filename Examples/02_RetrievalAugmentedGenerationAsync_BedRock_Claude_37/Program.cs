@@ -5,8 +5,12 @@ using Amazon.BedrockRuntime.Model;
 // Create a Bedrock Runtime client in the AWS Region you want to use.
 var client = new AmazonBedrockRuntimeClient(RegionEndpoint.EUWest1);
 
+Console.WriteLine();
+Console.WriteLine("Retrieval Augmented Generation (RAG) with Amazon Bedrock Runtime and Claude 3 Sonnet.");
+Console.WriteLine();
+
 // Set the model ID, e.g., Claude 3 Haiku.
-//var modelId = "anthropic.claude-3-7-sonnet-20250219-v1:0";   // Arrgh. This model requires provisioned throughput and inference profile.
+//var modelId = "anthropic.claude-3-7-sonnet-20250219-v1:0";   // Arrgh. This model requires provisioned throughput and inference profile. 
 var modelId = "anthropic.claude-3-sonnet-20240229-v1:0";
 
 // Define the user message.
